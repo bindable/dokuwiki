@@ -26,6 +26,7 @@ if(!defined('DOKU_PLUGIN'))  define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 
 // define config path (packagers may want to change this to /etc/dokuwiki/)
 if(!defined('DOKU_CONF')) define('DOKU_CONF',DOKU_INC.'conf/');
+if(!defined('DOKU_LOCAL_CONF')) define('DOKU_LOCAL_CONF',DOKU_INC.'localconf/');
 
 // check for error reporting override or set error reporting to sane values
 if (!defined('DOKU_E_LEVEL') && file_exists(DOKU_CONF.'report_e_all')) {

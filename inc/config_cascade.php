@@ -9,44 +9,44 @@ $config_cascade = array_merge(
     array(
         'main' => array(
             'default'   => array(DOKU_CONF . 'dokuwiki.php'),
-            'local'     => array(DOKU_CONF . 'local.php'),
+            'local'     => array(DOKU_LOCAL_CONF . 'local.php'),
             'protected' => array(DOKU_CONF . 'local.protected.php'),
         ),
         'acronyms' => array(
             'default'   => array(DOKU_CONF . 'acronyms.conf'),
-            'local'     => array(DOKU_CONF . 'acronyms.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'acronyms.local.conf'),
         ),
         'entities' => array(
             'default'   => array(DOKU_CONF . 'entities.conf'),
-            'local'     => array(DOKU_CONF . 'entities.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'entities.local.conf'),
         ),
         'interwiki' => array(
             'default'   => array(DOKU_CONF . 'interwiki.conf'),
-            'local'     => array(DOKU_CONF . 'interwiki.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'interwiki.local.conf'),
         ),
         'license' => array(
             'default'   => array(DOKU_CONF . 'license.php'),
-            'local'     => array(DOKU_CONF . 'license.local.php'),
+            'local'     => array(DOKU_LOCAL_CONF . 'license.local.php'),
         ),
         'mediameta' => array(
             'default'   => array(DOKU_CONF . 'mediameta.php'),
-            'local'     => array(DOKU_CONF . 'mediameta.local.php'),
+            'local'     => array(DOKU_LOCAL_CONF . 'mediameta.local.php'),
         ),
         'mime' => array(
             'default'   => array(DOKU_CONF . 'mime.conf'),
-            'local'     => array(DOKU_CONF . 'mime.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'mime.local.conf'),
         ),
         'scheme' => array(
             'default'   => array(DOKU_CONF . 'scheme.conf'),
-            'local'     => array(DOKU_CONF . 'scheme.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'scheme.local.conf'),
         ),
         'smileys' => array(
             'default'   => array(DOKU_CONF . 'smileys.conf'),
-            'local'     => array(DOKU_CONF . 'smileys.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'smileys.local.conf'),
         ),
         'wordblock' => array(
             'default'   => array(DOKU_CONF . 'wordblock.conf'),
-            'local'     => array(DOKU_CONF . 'wordblock.local.conf'),
+            'local'     => array(DOKU_LOCAL_CONF . 'wordblock.local.conf'),
         ),
         'userstyle' => array(
             'screen'    => array(DOKU_CONF . 'userstyle.css', DOKU_CONF . 'userstyle.less'),
@@ -58,15 +58,15 @@ $config_cascade = array_merge(
             'default'   => array(DOKU_CONF . 'userscript.js')
         ),
         'acl' => array(
-            'default'   => DOKU_CONF . 'acl.auth.php',
+            'default'   => DOKU_LOCAL_CONF . 'acl.auth.php',
         ),
         'plainauth.users' => array(
-            'default'   => DOKU_CONF . 'users.auth.php',
+            'default'   => DOKU_LOCAL_CONF . 'users.auth.php',
             'protected' => '' // not used by default
         ),
         'plugins' => array(
             'default'   => array(DOKU_CONF . 'plugins.php'),
-            'local'     => array(DOKU_CONF . 'plugins.local.php'),
+            'local'     => array(DOKU_LOCAL_CONF . 'plugins.local.php'),
             'protected' => array(
                 DOKU_CONF . 'plugins.required.php',
                 DOKU_CONF . 'plugins.protected.php',

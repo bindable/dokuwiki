@@ -7,7 +7,7 @@
 
 if(!defined('DOKU_INC')) define('DOKU_INC',dirname(__FILE__).'/');
 if(!defined('DOKU_CONF')) define('DOKU_CONF',DOKU_INC.'conf/');
-if(!defined('DOKU_LOCAL')) define('DOKU_LOCAL',DOKU_INC.'conf/');
+if(!defined('DOKU_LOCAL')) define('DOKU_LOCAL',DOKU_INC.'localconf/');
 
 require_once(DOKU_INC.'inc/PassHash.class.php');
 
